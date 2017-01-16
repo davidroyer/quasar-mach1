@@ -27,6 +27,9 @@
         <q-drawer-link icon="edit" :to="{path: '/posts'}">
           Posts
         </q-drawer-link>
+        <q-drawer-link icon="add" :to="{path: '/new'}">
+          New Post
+        </q-drawer-link>
         <q-drawer-link icon="mail" :to="{path: '/test'}">
           Test
         </q-drawer-link>

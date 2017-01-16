@@ -8,4 +8,5 @@ var config = {
 }
 
 var firebaseApp = firebase.initializeApp(config)
+module.exports.photos = firebaseApp.storage()
 module.exports.db = firebaseApp.database()

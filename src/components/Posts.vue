@@ -21,7 +21,13 @@
 <script>
   import { db } from '../AppStore.js'
   let postsRef = db.ref('posts')
+
   export default {
+    data () {
+      return {
+        msg: 'Hello'
+      }
+    },
     methods: {
       clickedOnItem (val) {
         console.log(val)
