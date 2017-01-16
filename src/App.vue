@@ -54,13 +54,14 @@
 /*
  * Root component
  */
-export default {
-  methods: {
-    // testClick () {
-    //   alert('hi')
-    // }
+
+  export default {
+    methods: {
+    },
+
+    mounted () {
+    }
   }
-}
 </script>
 
 <style>
